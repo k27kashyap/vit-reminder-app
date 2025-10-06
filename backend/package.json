@@ -1,22 +1,21 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Smart Reminder Backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "chrono-node": "^2.9.0",
+    "compute-cosine-similarity": "^1.0.3",
     "dotenv": "^17.2.2",
-    "expess": "^0.0.1-security",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
-    "googleapis": "^160.0.0"
+    "googleapis": "^160.0.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^7.8.7",
+    "openai": "^4.10.0"
   }
 }
